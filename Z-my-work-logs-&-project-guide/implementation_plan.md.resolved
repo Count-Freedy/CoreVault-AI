@@ -1,0 +1,35 @@
+# Implementation Plan - Launch New CoreVault AI UI (v0 Version)
+
+This plan outlines the steps to install and run the new version of the CoreVault AI frontend, which was generated using v0 by Vercel.
+
+## User Review Required
+
+> [!IMPORTANT]
+> **New Directory Detected**: The project is now located in `Project-CoreVault`.
+> **Environment Setup**: I will use `npm` for dependency management. I need to perform a fresh `npm install` because this is a new codebase with React 19 and Next.js.
+
+## Proposed Changes
+
+I will set up the environment first, then perform a deep code audit to report on the current development status.
+
+### Operational Phase
+1. **Install Dependencies**: Run `npm install` in the `Project-CoreVault` directory. [IN PROGRESS]
+2. **Start Development Server**: Run `npm run dev`.
+3. **Launch Browser**: Open `http://localhost:3000` to view the new UI.
+
+### Internal & Deep Audit Phase
+1. **Source Code Mapping**: Analyze the 1,400+ line `app/page.tsx` to understand navigation, state management, and data flow.
+2. **Component Audit**: Inspect `components/ui` and `hooks` to identify available UI primitives.
+3. **Feature Gap Analysis**: Compare current implementation (likely mock-heavy) against fintech requirements.
+4. **Status Report**: Deliver a detailed summary of what is "working", what is "mocked", and what is missing.
+
+## Open Questions
+
+None.
+
+## Verification Plan
+
+### Manual Verification
+- Ensure `npm install` finishes successfully.
+- Ensure the dev server logs "Ready".
+- View the UI in the internal browser to confirm it loads.

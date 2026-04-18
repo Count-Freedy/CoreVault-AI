@@ -1,0 +1,33 @@
+# Phase 2 Walkthrough: Investor Identity & Onboarding
+
+I have completed the "Masterpiece" upgrades to the CoreVault AI user profile and onboarding systems. The platform now feels significantly more professional and data-driven.
+
+## Key Accomplishments
+
+### 1. 📂 Enhanced Onboarding Engine
+- **Robust Voice Input**: Fixed the "word repetition" issue by implementing a strict `isFinal` result-handling loop for the Web Speech API.
+- **Deep Profiling**: Added 3 new steps to capture **Financial Knowledge**, **Investment Horizon**, and **Savings Targets**, enabling the AI Trading Agent to make more personalized suggestions.
+- **Improved UX**: Smoother transitions and a 6-step progress indicator.
+
+### 2. 👤 Premium Investor Profile (`SettingsPage`)
+- **DP/Avatar Upload**: You can now click on the profile picture to upload a custom image from your PC. It is stored locally as a Base64 string for persistence.
+- **"Architect Details" Container**: Added an expandable section that reveals all your detailed onboarding data (Income, Expenses, Knowledge, Life Goals).
+- **Fintech Metrics**: Integrated **AI Trust Score** and **Security Level** progress bars to reinforce the secure, AI-driven experience.
+- **Fixed "Occupation" Error**: Resolved the TypeScript/Lint error where the occupation field was missing from the user interface.
+
+### 3. 🛡️ Branded QR Identity
+- **Branded Design**: The QR code now features the **CoreVault Sparkle Logo** in the center for a premium, verified look.
+- **Full Data Payload**: The QR code now contains a comprehensive JSON payload of your entire investor identity (ID, Name, Email, and Onboarding profile).
+- **Downloadable ID**: Added a "Download ID Logo" button that generates a PNG file of your QR identity for local storage.
+
+## Verification Results
+
+- **Server Status**: [OK] Running on localhost:3000.
+- **Persistence**: [OK] Verified that avatar and onboarding data remain after page refresh.
+- **Logic**: [OK] Tested Speech API to ensure no duplicated text.
+
+> [!TIP]
+> **Scan to Verify**: You can use your phone camera on the QR code in the "Settings" tab to see the full JSON data structure being sent to the "Wealth Architect."
+
+## Next Steps
+We are now ready for **Stage 5: Real-Time Market Fluctuation Engine**, where we will make the dashboard charts truly "come alive" with dynamic logic.
