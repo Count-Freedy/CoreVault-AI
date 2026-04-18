@@ -34,6 +34,13 @@ In the era of extreme market volatility, traditional dashboards are too static. 
 
 ---
 
+---
+
+## Technical Flowchart
+<img width="881" height="661" alt="image" src="https://github.com/user-attachments/assets/c3d2774d-b13f-4950-8af0-eefc37949671" />
+
+---
+
 ## 🛠️ Technology Stack
 - **Frontend**: Next.js 14, TypeScript
 - **State Management**: React Hooks (useAuth, useSentinel) & Universal Pulse Engine.
@@ -61,22 +68,27 @@ npm install
 ```bash
 npm run dev
 ```
-
 ---
 
 ## 🎬 Live Demo & Screenshots
 
-> [!TIP]
-> **Insert your high-quality screenshots below** to showcase the glassmorphic UI and the Sentinel Alert system.
-
 ### Dashboard Command Center
-*(Space for Dashboard Screenshot)*
+<img width="1365" height="629" alt="image" src="https://github.com/user-attachments/assets/25eddba8-f84e-420a-9191-a9afd8b413fd" />
 
 ### Portfolio Risk Diagnostics
-*(Space for Portfolio Screenshot)*
+<img width="1365" height="630" alt="image" src="https://github.com/user-attachments/assets/8cbee1ac-930d-44c5-bf25-0698768663cd" />
 
-### Market Sentinel Emergency Alert
-*(Space for Alert Screenshot)*
+### Investor Identity (User Profile)
+<img width="1365" height="632" alt="image" src="https://github.com/user-attachments/assets/77998e71-7afc-41a1-8157-ed74bcaa9b6a" />
+
+### The AI Trading Agent
+<img width="1365" height="630" alt="image" src="https://github.com/user-attachments/assets/e7306558-b9f2-4e79-8e3e-f1d17b723f42" />
+
+### Finance Academy
+<img width="1365" height="629" alt="image" src="https://github.com/user-attachments/assets/b36d34f4-2fea-4b6e-ac89-525ea4653850" />
+
+### Community & Grow
+<img width="1362" height="628" alt="image" src="https://github.com/user-attachments/assets/9d6e3e43-40fb-4ab4-b0c7-f0e3dcecabd2" />
 
 ---
 
@@ -85,4 +97,6 @@ npm run dev
 - **Build Status**: Fully Stabilized for SSR
 - **Compatibility**: Mobile Responsive & Dark Mode Native
 
-**Developed with ❤️ and AI for the next generation of Alpha seekers.**
+---
+
+Author: **Kunal Kumar**
